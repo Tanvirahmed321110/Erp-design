@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="./static/css/common.css">
+    </head>
+
+    <body>
+
+        <!--===================================-->
+        <!--======   Header Start Here   ======-->
+        <!--===================================-->
+        <header>
+            <div class="header-wrapper my-flex-between my-h-100">
+                <div class="logo my-flex-center ">
+                    <h2>Logo.</h1>
+                </div>
+
+                <div class="my-flex-between my-w-100">
+                    <h3 class="my-ml-1 my-fw-medium">Dashboard</h3>
+
+
+
+                    <!-- header right -->
+                    <div class="header-right my-d-flex my-gap-10">
+                        <!-- Header Medile -->
+                        <div class=" my-flex-center my-gap-4 my-p-2 my-px-5  my-border my-shadow-1 my-radius-pill">
+                            <div>Lang</div>
+                            <div>Lang</div>
+                            <div>Noti</div>
+                            <div>Dark Light</div>
+                        </div>
+                        <div class="profile">
+                            <img class="my-profile-md"
+                                src="https://lh3.googleusercontent.com/-owKu1iCCv1U/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfkkoF57nnKwpNOdtH-5uYsJd1iv1fQ/photo.jpg?sz=46"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=================================-->
+        <!--======   Header End Here   ======-->
+        <!--=================================-->
+
+
+
+        <!--====================================-->
+        <!--======   Sidebar Start Here   ======-->
+        <!--====================================-->
+        <div class="sidebar">
+            <div class="sidebar-wrapper my-flex-between my-flex-column my-h-100">
+                <!-- Sidebar Close Button -->
+                <button class="sidebar-close-btn"><i class="fa-solid fa-bars"></i></button>
+
+
+                <!--==============   Sidebar Main Menu Here  ================ -->
+                <ul class="sidebar-menu my-w-100">
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Dashboard </a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Inventory <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Customer <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">New Order <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Size Magerment <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Reports <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                    <li>
+                        <a class="sidebar-main-menu my-flex-between  " href="#">Up Comming <span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a>
+                    </li>
+                </ul>
+
+
+                <!--==============   Sidebar Main Menu Bottom  ================ -->
+                <div class="my-w-100 sidebar-bottom">
+                    <div class="my-border-bottom my-p-2 my-fs-sm ">Others</div>
+                    <ul class="my-mt-1">
+                        <li class="sidebar-main-menu my-d-flex my-gap-2"><span><i class="fa-solid fa-gear"></i></span>
+                            Setting</li>
+                        <li class="sidebar-main-menu my-d-flex my-gap-2"><span><i
+                                    class="fa-solid fa-headset"></i></span>
+                            Help Center</li>
+                        <li class="sidebar-main-menu my-d-flex my-gap-2"><span><i
+                                    class="fa-solid fa-arrow-right-from-bracket"></i></span>
+                            Log Out</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--=========================================-->
+        <!--======   Main Content Start Here   ======-->
+        <!--=========================================-->
+        <section>
+            <div class="main-contents my-has-scrollbar-sm">
+                <div class="my-grid-3 my-gap-4 my-grid-sm-1">
+
+                    <!-- single card item -->
+                    <div class="item my-card my-border-none">
+                        <h3 class="my-fw-medium">Total Income</h3>
+                        <div class="my-mt-3 my-d-flex my-align-center my-gap-4">
+                            <div class="my-icon-md my-bg-border ">i</div>
+                            <p class="my-fs-lg">12000</p>
+                        </div>
+                    </div>
+
+                    <!-- single card item -->
+                    <div class="item my-card my-border-none">
+                        <h3 class="my-fw-medium my-fs-xl">Total Customer</h3>
+                        <div class="my-mt-3 my-d-flex my-align-center my-gap-4">
+                            <div class="my-icon-md my-bg-border ">i</div>
+                            <p class="my-fs-lg">12000</p>
+                        </div>
+                    </div>
+
+                    <!-- single card item -->
+                    <div class="item my-card my-border-none">
+                        <h3 class="my-fw-medium">Total Products</h3>
+                        <div class="my-mt-3 my-d-flex my-align-center my-gap-4">
+                            <div class="my-icon-md my-bg-border ">i</div>
+                            <p class="my-fs-lg">12000</p>
+                        </div>
+                    </div>
+                    <div class="item my-card"></div>
+                    <div class="item my-card"></div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================-->
+        <!--======   Main Content End Here   ======-->
+        <!--=======================================-->
+
+
+        <div class="my-modal " id="new-modal">
+            <div class="modal-content ">
+                <button class="my-btn modal-close-btn">X</button>
+                <div class="">
+                    <div class="header">
+                        hader here
+                    </div>
+
+                    <div class="modal-body my-p-5">body</div>
+
+                    <div class="footer">Footer</div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-overlay "></div>
+
+
+        <script type="module">
+            import { closeButtonF, openModalF } from '/static/js/main.js';
+            closeButtonF();
+            openModalF('new-modal', '.new-modal-open-btn');
+
+        </script>
+
+    </body>
+
+</html>
